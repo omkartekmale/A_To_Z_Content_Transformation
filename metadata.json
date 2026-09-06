@@ -1,0 +1,6 @@
+{
+  "name": "OmniTransform - AI Content Transformation Engine",
+  "description": "Enterprise AI-powered content transformation engine for SIH 2026. Converts source documents, advisories, reports, and prompts into targeted deliverables including Video packages, LinkedIn posts, X threads, Advisories, Infographics, Executive Summaries, and Presentations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
