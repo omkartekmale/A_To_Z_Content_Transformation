@@ -42,7 +42,7 @@ export const SihArchitectureModal: React.FC<SihArchitectureModalProps> = ({
       title: 'Parallelized Multi-Artefact Orchestrator',
       lead: 'Coordinates simultaneous generation of all 7 target formats without cross-contamination or hallucination.',
       features: [
-        'Server-side Gemini 2.5 Flash orchestration',
+        'Server-side Gemini 3.8 Flash orchestration with multi-model cascade',
         'Strict JSON schema adherence with type safety',
         'Real-time fallback recovery for offline/low-connectivity resiliency'
       ],
@@ -198,7 +198,7 @@ export const SihArchitectureModal: React.FC<SihArchitectureModalProps> = ({
               <ArrowRight className="w-4 h-4 text-indigo-400 shrink-0 hidden sm:block" />
 
               <div className="p-3 bg-indigo-950/70 rounded-lg border border-indigo-500/40 flex-1 min-w-[140px] text-center">
-                <div className="font-semibold text-indigo-300">3. Gemini 2.5 Flash</div>
+                <div className="font-semibold text-indigo-300">3. Gemini 3 Series</div>
                 <div className="text-[11px] text-slate-300 mt-0.5">Parallel Structured JSON</div>
               </div>
               <ArrowRight className="w-4 h-4 text-indigo-400 shrink-0 hidden sm:block" />
@@ -243,7 +243,7 @@ export const SihArchitectureModal: React.FC<SihArchitectureModalProps> = ({
 
         {/* Footer */}
         <div className="px-6 py-3 border-t border-slate-800 bg-slate-950/60 flex items-center justify-between text-xs text-slate-400">
-          <span>Target Platform: Cloud Run / React 19 / Express / Gemini 2.5 Flash</span>
+          <span>Target Platform: Cloud Run / React 19 / Express / Gemini 3.8 Flash</span>
           <button
             onClick={onClose}
             className="px-4 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-medium transition-colors"

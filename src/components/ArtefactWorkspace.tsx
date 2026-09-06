@@ -71,7 +71,7 @@ export const ArtefactWorkspace: React.FC<ArtefactWorkspaceProps> = ({
 Source Title: ${sourceTitle}
 Category: ${sourceCategory}
 Generated on: ${new Date().toLocaleString()}
-Engine: Gemini 2.5 Flash
+Engine: Gemini 3.8 Flash
 --------------------------------------------------\n\n`;
 
     if (deliverables.executive_summary) {

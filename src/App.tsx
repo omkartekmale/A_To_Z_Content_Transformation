@@ -126,7 +126,7 @@ export default function App() {
     }, 900);
 
     const stepTimer2 = setTimeout(() => {
-      setGenerationStepMessage('Orchestrating Gemini 2.5 Flash multi-format synthesis...');
+      setGenerationStepMessage('Orchestrating Gemini 3 series multi-format synthesis...');
     }, 2200);
 
     const stepTimer3 = setTimeout(() => {
@@ -316,7 +316,7 @@ export default function App() {
               System Architecture
             </button>
             <span>•</span>
-            <span className="text-slate-500">Powered by Gemini 2.5 Flash & React 19</span>
+            <span className="text-slate-500">Powered by Gemini 3.8 Flash & React 19</span>
           </div>
         </div>
       </footer>

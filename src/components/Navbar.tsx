@@ -88,7 +88,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
             </span>
             <Cpu className="w-3 h-3 text-slate-400" />
-            <span className="text-[11px] text-slate-400">Gemini 2.5 Engine</span>
+            <span className="text-[11px] text-slate-400">Gemini 3 Engine</span>
           </div>
 
           {/* Reset Workspace */}
